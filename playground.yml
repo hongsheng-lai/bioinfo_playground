@@ -1,0 +1,22 @@
+name: playground
+channels:
+  - conda-forge
+  - bioconda
+  - pytorch
+  - defaults
+
+dependencies:
+  - python=3.9
+  - biopython
+  - blast
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+  - pandas
+  - bcftools
+  - samtools  # For working with sequencing data
+  - bedtools  # For genome interval manipulation
+  - matplotlib # For visualization
+  - seaborn   # For enhanced plotting
+  - jupyter   # To use Jupyter notebooks
